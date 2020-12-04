@@ -19,6 +19,11 @@ Personal project starter template for a React (or Vue) web framework application
 
 - test runner – Jest
 
+### Code Style & Linting
+
+- linter – ESLint
+- style guide – airbnb
+
 ### API
 
 Services hosted on this api are:
@@ -28,13 +33,22 @@ Services hosted on this api are:
 
 ## Installation
 
-Intall the most recent software packages from npm for this app by running the following commands
+Install the most recent software packages from npm for this app by running the following commands
+
+1.
+
+```
+$ cd StarterAPP
+$ npm init -y && npm i concurrently && npm i nodemon
+$ npm i --save-dev eslint && nmp i --save-dev eslint-config-airbnb-base
+
+```
 
 1.
 
 ```
 $ cd api
-$ npm i express && npm i axios && npm i uuid
+$ npm init -y && npm i express && npm i axios && npm i uuid
 $ npm i --save-dev dredd
 ```
 
@@ -42,5 +56,6 @@ $ npm i --save-dev dredd
 
 ```
 $ cd ../web
-$ npm i react
+$ npm init -y && npm i react
+$ nmp i --save-dev
 ```
