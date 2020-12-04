@@ -17,7 +17,9 @@ Some useful info about this projects: what it is / what it does.
 
 ### Core Tech
 
+- web framework – React
 - server – NodeJS
+- server framework – Express
 - database – Postgre
 - ORM – Sequelize
 - CI – Circle CI
@@ -26,7 +28,7 @@ Some useful info about this projects: what it is / what it does.
 
 - test runner – Jest
 
-### API
+### API – database
 
 Pertinent api information goes here.
 
